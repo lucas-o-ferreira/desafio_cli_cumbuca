@@ -58,7 +58,7 @@ Para usar a ferramenta, siga os passos abaixo:
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/desafio-cumbuca.git
+   git clone https://github.com/lucas-o-ferreira/desafio_cli_cumbuca
    ```
 2. Navegue até o diretório do projeto:
    ```sh
