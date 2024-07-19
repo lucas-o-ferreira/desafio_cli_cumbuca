@@ -1,5 +1,9 @@
 defmodule EnumerateNames do
   @roman_numerals [
+    {10000, "X̅"},
+    {9000, "M̅X̅"},
+    {5000, "V̅"},
+    {4000, "M̅V̅"},
     {1000, "M"},
     {900, "CM"},
     {500, "D"},
