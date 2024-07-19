@@ -14,7 +14,7 @@ defmodule DesafioCliTest do
   end
 
   test "names with special characters" do
-    input = ["Ranni@", "Godrick$", "Ranni@", "Godrick$"]
+    input = ["Ranni@", "Godrick$", "Ranni@", "Godrick$", "\n\n", "#{nil}"]
     expected = ["Ranni@ I", "Godrick$ I", "Ranni@ II", "Godrick$ II"]
 
     assert DesafioCli.enumerated_names(input) == expected
