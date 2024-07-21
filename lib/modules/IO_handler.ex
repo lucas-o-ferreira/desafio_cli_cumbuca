@@ -42,10 +42,10 @@ defmodule IOHandler do
   end
 
   def end_or_continue() do
-    IO.puts("Do you wish to continue using this program?(S/n)")
+    IO.puts("Do you wish to continue using this program?(Y/n)")
     case IO.gets("")
     |> String.trim() do
-      input when input in ["s", "S", ""] -> DesafioCli.start()
+      input when input in ["y", "Y", ""] -> DesafioCli.start()
       input when input in ["n", "N"] -> IO.puts("Ending execution! Bye")
       _ ->
       IO.puts("Invalid Input.")
